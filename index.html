@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager - Personal To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Manager</h1>
+            <p>Personal To-Do List</p>
+        </header>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="What do you need to do?" required>
+            <button type="submit"><i class="fas fa-plus"></i> Add Task</button>
+        </form>
+        <div class="task-filters">
+            <button id="all-tasks" class="active">All Tasks</button>
+            <button id="pending-tasks">Pending</button>
+            <button id="completed-tasks">Completed</button>
+        </div>
+        <div class="task-list-container">
+            <h2 id="list-title">All Tasks</h2>
+            <ul id="task-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
