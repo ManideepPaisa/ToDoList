@@ -1,4 +1,4 @@
-# Task Master: Your Personal To-Do List
+# Task Manager: Personal To-Do List
 
 Task Master is a responsive web application that helps you manage your daily tasks efficiently. With a clean, intuitive interface and smooth user experience, Task Master makes it easy to keep track of your to-do items.
 
@@ -13,14 +13,12 @@ Task Master is a responsive web application that helps you manage your daily tas
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
+- HTML
+- CSS
+- JavaScript
 - Font Awesome for icons
 - Google Fonts (Poppins)
 
-## Getting Started
+## duration
 
-To run this project locally, follow these steps:
-
-1. Clone the repository:
+7 days
